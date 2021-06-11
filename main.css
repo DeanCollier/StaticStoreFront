@@ -18,9 +18,10 @@ body {
 
 h1 {
     color: white;
-    font-size: 2em;
+    font-size: 3em;
     margin: 0.5em 0 0.5em 0;
     padding: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 h2 {
@@ -83,7 +84,7 @@ div.clear {
 /* Header */
 header {
     padding: 2.5em 0 0.5em;
-    margin: 0 0 2em;
+    margin: 0 0 1em;
     background: url(img/CloneBackground.jpg) center -30px;
     background-size: 36% 200%;
 
@@ -191,34 +192,35 @@ nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::befor
 
 /* Sidebar Section */
 section#sidebar {
-    width: 238px;
+    width: 300px;
     float: right;
     position: relative;
     display: block;
     background-color: #fff;
-    margin: 1.5em 0 3em 1.5em;
-    padding: 1.7em 0.5em 2em 1.7em;
-    border-left: #2BA967 solid 5px;
+    margin: 5em 0 0 0;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-left: #2be6ff solid 5px;
 }
 
 /* Main section */
-section #main {
-    background-color: rgba(252, 251, 243, 0.7);
-    margin:  0 0 2em;
-    padding: 1.5em 0 2em 1.5em;
+section#main {
+    background-color:transparent;
+    margin:  0 4em 4em 4em;
+    padding: 0em 0 2em 1.5em;
     display: inline-block;
     border-radius: 2em;
-    box-shadow: 1px 1px 5px #777;
+    position: relative;
 }
 
 section div.panel {
     float: left;
     position: relative;
     width: 250px;
+    height: 450px;
     margin: 0 0.5em 2em 0.5em;
     padding: 1em;
-    background-color: #fff;
-    border: #ccc solid 1px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: #2be6ff solid 1px;
     border-radius: 0.6em;
 }
 
@@ -274,6 +276,6 @@ button {
 }
 
 button:hover {
-    background-color: #2ef537;
+    background-color: #2be6ff;
     border: 1px solid #37f761;
 }
